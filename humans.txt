@@ -1,0 +1,16 @@
+/* team */
+
+Developper/Designer: Caterina O'Leary
+Site: olea0030.site44.com
+Twitter: @ccaterinaghost
+Location: Ottawa, Canada
+
+/* Thanks */
+To all the awesome people who helped me.
+
+/*Site */
+
+Last update: 2013/12/5
+Standards: HTML5, CSS3
+Components: Jquery, Modernizr, etc...
+Software: Adobe, Sublime Text 2, Livereload

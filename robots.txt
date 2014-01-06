@@ -1,0 +1,8 @@
+Written content taken from: http://www.beveg.ca/factory-farming-in-canada.php
+
+#http://en.wikipedia.org/wiki/Robots_exclision_standard
+#http://www.robotstxt.org/
+
+http://olea0030.site44.com/dsn1543/project-1
+
+User-agent: *

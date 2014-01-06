@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Learn about Factory Farming</title>
+	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="CSS/reset.css" rel="stylesheet">
+	<link href="css/general.css" rel="stylesheet">
+	<meta name="description" content="Family-friendly education on factory farming in Canada" >
+	<meta name="keywords" content="animals, farm, canada, factory, farming, chicken, vegetarian, vegan, sad, kill, murder, slaughter">
+		<meta name="author" content="BeVeg.ca">
+		<meta name="copyright" content="BeVeg.ca">
+		<meta name="ICBM" content="62.2270 -105.3809">
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="author" href="humans.txt"/>		
+	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	
+	<main>
+		<h1>Factory Farming in Canada</h1>
+		
+		<div class="splash">
+		
+			<p class="disclaimer">Disclaimer:</p>
+			<p class="intro">The content of this website is graphic and may be innappropriate for children under the age of 10. Adult supervision suggested.<br><br>
+			<a href="page.html" class="enter">Enter</a></p>
+			
+		</div>
+		
+	</main>
+
+	<footer>	
+		<ul class="social">
+				<li><a href="www.facebook.com" class="ease-linear"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
+				<li><a href="www.twitter.com" class="ease-linear"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
+				<li><a href="www.google.com" class="ease-linear"><i class="fa fa-google-plus"></i><span class="hide-text">Googleplus</span></a></li>
+			
+			</ul>
+	</footer>
+	
+				<script src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+				e.preventDefault();
+			  
+				var target = this.hash,
+				$target = $(target);
+			  
+				$('html, body').stop().animate({
+					'scrollTop': $target.offset().top-40
+				}, 900, 'swing', function () {
+					window.location.hash = target;
+				});
+			});
+		});
+		</script>
+
+			
+</body>
+</html>
